@@ -4,6 +4,17 @@
 @tailwind utilities;
 
 
+
+body {
+    overflow-x: hidden;
+}
+
+/* Optional: You can set a max-width for the swiper container to make it more controlled */
+.swiper-container {
+    max-width: 100%;
+    overflow: hidden;
+}
+
 .primary_font {
     font-family: "Hind Siliguri", sans-serif;
 }
